@@ -9,12 +9,10 @@ form.addEventListener('submit', function(evt){
     for(let i = 0; i < inp.length; i++){
         let a = /[a,u,e,i,o,o',A,U,E,I,O,O']/
         if(a.test(inp[i])){
-            // n = n++
             text.innerHTML = `${n += 1 } ta unli harf bor`
         }
         else{
             text.textContent = n
         }
     }
-    console.log(n);
 })
