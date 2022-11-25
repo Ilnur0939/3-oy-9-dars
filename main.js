@@ -12,7 +12,7 @@ form.addEventListener('submit', function(evt){
             text.innerHTML = `${n += 1 } ta unli harf bor`
         }
         else{
-            text.textContent = n
+            text.innerHTML = `${n} ta unli harf bor`
         }
     }
 })
